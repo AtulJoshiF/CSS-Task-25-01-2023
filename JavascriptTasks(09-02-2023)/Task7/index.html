@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+</head>
+<body>
+    <!-- Task 7:
+Create 3 input field named “Range from”,”Range To” and “divisible value”
+Create a button named Submit
+Default values of Range From and Range To are 0 and 100.
+When a user clicks on the submit button, get the divisible input value and  show a list of numbers from the range which is divisible by the divisible value. -->
+    <div>
+        <input type="number" placeholder="Range from" id="range-from" min="0" max="100" required>
+        <input type="number" placeholder="Range to" id="range-to" min="0" max="100" required>
+        <input type="number" placeholder="divivible by" id="divisible-by" min="0" max="100" required>
+        <button id="submit" onClick="displayDivisibles()">Submit</button>
+    </div>
+    <div id="result-list"></div>
+    <script src="main.js"></script>
+</body>
+</html>

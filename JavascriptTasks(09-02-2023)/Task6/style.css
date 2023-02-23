@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+  }
+  #container1{
+    width: 70vw;
+    height: 100vh;
+    position: relative;
+  }
+  button{
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    top: calc((100vh - 30px)/2);
+    left: calc((70vw - 60px)/2);
+    background: black;
+    color: white;
+    border-radius: 10px;
+  }
+  #container2{
+    width: 30vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: strech;
+  }
+  .color-container{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+  }
+  .count{
+    float: right;
+  }

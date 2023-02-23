@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxes{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+  }
+  #box1{
+    background: red;
+  }
+  #box2{
+    background: blue;
+  }
+  #box3{
+    background: green;
+  }
+  #box4{
+    background: yellow;
+  }
