@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}.container{
+    width: 100vw;
+    height: 100vh;
+}.image{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+}.outer-box{
+    height: 30px;
+    width: 150px;
+    background-color: #767675;
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px 5px 0 0;
+}.tilted{
+    transform: rotate(270deg);
+}.image-box{
+    width: 250px;
+    height: 250px;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}.number{
+    padding-bottom: 15px;
+}.image-box1{
+    background-color: #bf252b;
+    border-radius: 15px 15px 0 15px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}.outer-box1{
+    position: absolute;
+    left: -60px;
+    top: 140px;
+}.outer-box2{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}.image-box2{
+    background-color: #6caf66;
+    border-radius: 15px 15px 15px 0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}.outer-box3{
+    position: absolute;
+    left: 50px;
+}.image-box3{
+    background-color: #f79834;
+    border-radius: 15px 0 15px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}.outer-box4{
+    position: absolute;
+    left: -60px;
+    top: 110px;
+}.image-box4{
+    background-color: #204171;
+    border-radius: 0 15px 15px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* positioning using calc() method */
+
+.first-image{
+    position: absolute;
+    top: calc((100vh/2) - 280px - 3px);
+    left: calc((100vw/2) - 280px - 3px);
+}.second-image{
+    position: absolute;
+    top: calc((100vh/2) - 280px - 3px);
+    right: calc((100vw/2) - 280px - 3px);
+}.third-image{
+    position: absolute;
+    bottom: calc((100vh/2) - 280px - 3px);
+    left: calc((100vw/2) - 280px - 3px);
+}.fourth-image{
+    position: absolute;
+    bottom: calc((100vh/2) - 280px - 3px);
+    right: calc((100vw/2) - 280px - 3px);
+}
+
+
+/*  Alternate method
+    
+
+.first-image{
+    position: absolute;
+    bottom: calc(50vh + 3px);
+    right: calc(50vw + 3px);
+}.second-image{
+    position: absolute;
+    bottom: calc(50vh + 3px);
+    left: calc(50vw + 3px);
+}.third-image{
+    position: absolute;
+    top: calc(50vh + 3px);
+    right: calc(50vw + 3px);
+}.fourth-image{
+    position: absolute;
+    top: calc(50vh + 3px);
+    left: calc(50vw + 3px);
+} */

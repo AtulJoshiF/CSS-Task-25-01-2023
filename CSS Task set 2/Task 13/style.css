@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}.blue-box{
+    width: 60vw;
+    height: 40vh;
+    background-color: #8994cc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}.red-box{
+    width: 40vw;
+    height: 40vh;
+    background-color: #fa4481;
+    position: absolute;
+    top: 0;
+    right: 0;
+}.child-container{
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}.image-box{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}.overlay{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom left, rgba(250, 68, 129, 0.4), rgba(137, 148, 204, 0.8));
+}.login-page{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}.inner-container{
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}.underline{
+    width: 52px;
+    height: 3px;
+    background-color: #fa4481;
+}.user-input-label{
+    font-size: small;
+    color: #7c8082;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}.user-input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}.remember-block{
+    padding: 5px 0;
+    font-size: 10px;
+}.user-input-checkbox-label{
+    position: absolute;
+    left: 15px;
+    color: #6a7072;
+}button{
+    width: 100%;
+    padding: 10px;
+    background-color: #fa4481;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}.last-line{
+    font-size: small;
+    margin-top: 10px;
+    color: #6a7072;
+}a{
+    color: #fa4481;
+    font-weight: 600;
+}a > i{
+    color: gray;
+    padding: 0 5px;
+}a > i.pink-icon{
+    color: #fa4481;
+}.social-media{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.other-options-text{
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+}
