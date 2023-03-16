@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image.jpg);
+    background-size: 100vw 100vh;
+}.header{
+    height: 10vh;
+    text-align: center;
+    letter-spacing: 8px;
+    margin-right: 8px;
+    padding-top: 3vh;
+    color: white;
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}.container{
+    width: 90vw;
+    margin: 0 5vw;
+    background-color: rgba(57, 160, 160, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: white;
+    padding: 3vw;
+}.sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}.sub-sub-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}.form-label{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}.form-input{
+    width: 60%;
+    background-color: rgba(38, 82, 83, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 10px 5px;
+}::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}.form-input-div{
+    width: 60%;
+    display: flex;
+}.form-sub-input{
+    background-color: rgba(38, 82, 83, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 10px 5px;
+}.form-input-country-code{
+    width: 30%;
+    margin-right: 10px;
+}.form-input-phone-number{
+    width: 70%;
+}.form-label-extended{
+    width: 18%;
+}.form-input-extended{
+    width: 82%;
+}.sub-container-extended{
+    padding-bottom: 10px;
+}.form-buttons{
+    margin-left: 18%;
+}.form-button{
+    padding: 10px  0;
+    width: 24%;
+    color: white;
+    border: none;
+    margin-right: 5px;
+}.place-order{
+    background-color: #4d93c7;
+}.reset{
+    background-color: #a6922e;
+}.footer{
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}.red-text{
+    color: rgb(255, 94, 0);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <div class="intro-box">
+                <img src="image.png" alt="image" class="intro-image">
+                <div class="intro-text">
+                    <div class="do-it">Do it</div>
+                    <div class="name">Angela Yu</div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="sub-container">
+                <div class="sub-container-head"><span class="sub-container-icon"><i class="fa-solid fa-list" style="color: #a18aff;"></i></span>Today's tasks</div>
+                <div class="todays-task-body">
+                    <button class="item item-1"><span class="circle circle-pink circle-side-bar"></span>Personnal</button>
+                    <button class="item item-2"><span class="circle circle-blue circle-side-bar"></span>Freelance</button>
+                    <button class="item item-3"><span class="circle circle-yellow circle-side-bar"></span>Work</button>
+                    <button class="item item-4" disabled><span class="circle circle-side-bar"><i class="fa fa-plus-circle fa-xs"></i></span>add filter</button>
+                </div>
+            </div>
+            <div class="sub-container">
+                <div class="sub-container-head"><span class="sub-container-icon"><i class="fa fa-calendar" style="color: #c0c0c0;"></i></span>Scheduled tasks</div>
+            </div>
+            <div class="sub-container">
+                <div class="sub-container-head"><span class="sub-container-icon"><i class="fa-solid fa-gear" style="color: #c0c0c0;"></i></span>Settings</div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="sub-main-container">
+                <div class="main-heading">
+                    <div class="first-heading heading">Today main focus</div>
+                    <div class="second-heading heading">Design Team Meeting</div>
+                </div>
+                <div class="main-input-box">
+                    <span class="circle circle-pink circle-main"></span>
+                    <span class="circle circle-blue circle-main"></span>
+                    <span class="circle circle-yellow circle-main"></span>
+                    <input type="text" placeholder="What is your next task?" class="main-input">
+                    <i class="fa-regular fa-clock main-icon main-icon-first"></i>
+                    <i class="fa-solid fa-calendar main-icon main-icon-second"></i>
+                </div>
+                <div class="main-display-boxes">
+                    <div class="main-display-box">
+                        <span class="circle circle-pink"></span>
+                        <p class="display-text">Work out</p>
+                        <span class="display-time">8:00 am</span>
+                        <i class="far fa-check-circle display-icon display-icon-active"></i>
+                    </div>
+                    <div class="main-display-box">
+                        <span class="circle circle-yellow"></span>
+                        <p class="display-text">Design Team meeting</p>
+                        <span class="display-time">2:30 pm</span>
+                        <i class="far fa-check-circle display-icon display-icon-inactive"></i>
+                    </div>
+                    <div class="main-display-box">
+                        <span class="circle circle-blue"></span>
+                        <p class="display-text">Hand off the project</p>
+                        <span class="display-time">7:00 pm</span>
+                        <i class="far fa-check-circle display-icon display-icon-inactive"></i>
+                    </div>
+                    <div class="main-display-box">
+                        <span class="circle circle-pink"></span>
+                        <p class="display-text">Read 5 pages of "sprint"</p>
+                        <span class="display-time">10:30 pm</span>
+                        <i class="far fa-check-circle display-icon display-icon-inactive"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

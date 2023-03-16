@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">PRODUCT ORDER FORM</div>
+    <form action="#" class="container">
+        <div class="sub-container first-sub-container">
+            <div class="sub-sub-container">
+                <label for="first-name" class="form-label">FIRST NAME <span>:</span></label>
+                <input type="text" id="first-name" class="form-input" placeholder="Your First Name">
+            </div>
+            <div class="sub-sub-container">
+                <label for="last-name" class="form-label">LAST NAME <span>:</span></label>
+                <input type="text" id="last-name" class="form-input" placeholder="Your Last Name">
+            </div>
+            <div class="sub-sub-container">
+                <label for="email-address" class="form-label">EMAIL ADDRESS <span>:</span></label>
+                <input type="email" id="email-address" class="form-input" placeholder="Mail@example.com">
+            </div>
+        </div>
+        <div class="sub-container second-sub-container">
+            <div class="sub-sub-container">
+                <label for="phone-number" class="form-label">PHONE NUMBER <span>:</span></label>
+                <div class="form-input-div">
+                    <input type="number" class="form-sub-input form-input-country-code" id="country-code" placeholder="+??">
+                    <input type="number" class="form-sub-input form-input-phone-number" id="phone-number" placeholder="??????????">
+                </div>
+            </div>
+        </div>
+        <div class="sub-container third-sub-container sub-container-extended">
+            <label for="billing-address" class="form-label form-label-extended">BILLING ADDRESS <span>:</span></label>
+            <input type="text" id="billing-address" class="form-input form-input-extended" placeholder="Billing Address">
+        </div>
+        <div class="sub-container fourth-sub-container sub-container-extended">
+            <label for="your-address" class="form-label form-label-extended">YOUR ADDRESS <span>:</span></label>
+            <input type="text" id="your-address" class="form-input form-input-extended" placeholder="Your Address">
+        </div>
+        <div class="sub-container first-sub-container">
+            <div class="sub-sub-container">
+                <label for="city" class="form-label">CITY <span>:</span></label>
+                <input type="text" id="city" class="form-input" placeholder="Your City">
+            </div>
+            <div class="sub-sub-container">
+                <label for="state" class="form-label">STATE/PROVINCE <span>:</span></label>
+                <input type="text" id="state" class="form-input" placeholder="Your State or Province">
+            </div>
+            <div class="sub-sub-container">
+                <label for="zip-code" class="form-label">ZIP CODE <span>:</span></label>
+                <input type="number" id="zip-code" class="form-input" placeholder="Zip Code">
+            </div>
+            <div class="sub-sub-container">
+                <label for="country" class="form-label">COUNTRY <span>:</span></label>
+                <input type="text" id="country" class="form-input" placeholder="Country">
+            </div>
+        </div>
+        <div class="form-buttons">
+            <button class="form-button place-order">PLACE ORDER</button>
+            <button class="form-button reset">RESET</button>
+        </div>
+    </form>
+    <div class="footer">© 2017 Product Order form. All Rights Reserved | Designed by <span class="red-text">W3layouts</span></div>
+</body>
+</html>
